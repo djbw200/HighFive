@@ -16,10 +16,10 @@ body {
 	height: 400px;
 	position: static;
 	left: 50%;
-    top: 50%;
-    width: 75%;
-    display: block;
-    margin: 0 auto;
+        top: 50%;
+        width: 75%;
+        display: block;
+        margin: 0 auto;
 
 }
 #carousel img {
