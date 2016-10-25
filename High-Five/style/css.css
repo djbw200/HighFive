@@ -7,8 +7,9 @@ body {
 	background-image: url("../image/backmap.jpg");
 	background-color: #f6f6e6;
 	position: relative;
-	background-size: 100% 100%;
-	
+	background-size: cover;
+	color: black;
+}
 }
 #wrapper {
 	width: 900px;
