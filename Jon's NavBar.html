@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Case</title>
+  <title>Navbar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style/navbar.css">
 </head>
 <body>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="High-Five/main.html">Our Logo Goes Here</a>
+      <img src="High-Five/image/logo.png" alt="logo" >
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Events <span class="caret"></span></a>
+      <li class="active"><a href="High-Five/main.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="High-Five/pages/event.html">Events <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="High-Five/pages/">Concerts/Shows</a></li>
-          <li><a href="High-Five/pages/H5Miscellaneous.html">Miscelanious</a></li>
-          <li><a href="High-Five/pages/H5MuseumsZoo.html">Museums</a></li>
-          <li><a href="High-Five/pages/H5Parks.html">Parks</a></li>
-          <li><a href="High-Five/pages/">Restaurants</a></li>
-          <li><a href="High-Five/pages/">Sports</a></li>
+          <li><a href="High-Five/pages/ConcertsShows.html">Concerts/Shows</a></li>
+          <li><a href="High-Five/pages/H5Miscellaneous.html">Miscellaneous</a></li>
+          <li><a href="High-Five/pages/H5MuseumsZoo.html">Museums/Zoos</a></li>
+          <li><a href="High-Five/pages/H5Parks.html">Parks/Family Events</a></li>
+          <li><a href="High-Five/pages/Resturants.html">Restaurants/Bars</a></li>
+          <li><a href="High-Five/pages/WellnessSports.html">Sports/Wellness</a></li>
           <li><a href="High-Five/pages/event.html">Upcoming Events</a></li>
         </ul>
       </li>
@@ -43,13 +44,13 @@
           <li><a href="#">Volunteer Opportunities</a></li>
         </ul>
       </li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Mission Statement</a></li>
           <li><a href="#">Our Team</a></li>
         </ul>
       </li>
-      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
   </div>
 </nav>
